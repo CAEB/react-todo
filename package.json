@@ -1,0 +1,9 @@
+{
+  "name": "react_todo",
+  "version": "1.0.0",
+  "description": "react_demo_todo ",
+  "main": "index.js",
+  "repository": "https://github.com/CAEB/react-todo.git",
+  "author": "EB",
+  "license": "MIT"
+}
