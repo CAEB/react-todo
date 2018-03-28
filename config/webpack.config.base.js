@@ -23,8 +23,12 @@ module.exports = {
     module:{
         rules: [
             {
-                test: /\.less$/,
+                test: /\.(css|less)$/,
                 use: ['style-loader','css-loader','less-loader']
+            },
+            {
+                test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
+                loader: 'file-loader'
             },
             {
                 test: /\.(js|jsx)$/,
